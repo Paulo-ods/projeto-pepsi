@@ -136,8 +136,91 @@ li {
 .nutri-itens > li > div {
     padding: 20px 0;
     background-color: var(--blue-medium);
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.nutri-itens > li > div > strong {
+    font-weight: 600;
+    font-size: 24px;
 }
 
 .nutri-itens > li > footer {
+    padding: 10px 0;
     background-color: var(--blue-light);
+
+    display: flex;
+    justify-content: center;
+}
+
+.nutri-detail {
+    font-weight: 300;
+    font-size: 14px;
+    max-width: 70%;
+}
+
+.nutri-button {
+    margin-top: 4rem;
+}
+
+.pepsi-img {
+    flex: 1;
+    position: relative;
+}
+
+.little-can {
+    position: absolute;
+    bottom: 0;
+    right: 202px;
+}
+
+.large-can {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.shadow {
+    position: absolute;
+    right: 0;
+    top: 86%;
+    z-index: -1;
+}
+
+.info-bottom {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    max-width: 6.87rem;
+
+    background-color: var(--blue-light);
+    padding-bottom: 0.625rem;
+}
+
+.info-bottom > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 19px 12px;
+    background-color: var(--blue-medium);
+}
+
+.info-bottom > div > strong {
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.info-bottom > div > small {
+    margin: 2px 0 10px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.info-bottom > div > span {
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
 }
