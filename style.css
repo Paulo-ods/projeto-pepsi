@@ -21,6 +21,14 @@ body {
     height: 100vh;
 }
 
+main {
+    width: 100%;
+    max-width: 1120px;
+    margin: 72px auto 0;
+    padding: 0 16px;
+    display: flex;
+}
+
 body, button, input, textarea {
     font: 400 16px 'Rubik', sans-serif;
 }
@@ -86,4 +94,50 @@ li {
 .purchase-button:hover {
     background-color: var(--red);
     border-color: var(--red);
+}
+
+.main-section {
+    max-width: 645px;
+    padding-left: 40px;
+}
+
+.main-title {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.main-description {
+    margin-top: 18px;
+    font-weight: 300;
+}
+
+.nutritional {
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.title-nutri {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.nutri-itens {
+    display: flex;
+    gap: 15px;
+}
+
+.nutri-itens > li {
+    width: 7.3125rem;
+    
+}
+
+.nutri-itens > li > div {
+    padding: 20px 0;
+    background-color: var(--blue-medium);
+}
+
+.nutri-itens > li > footer {
+    background-color: var(--blue-light);
 }
