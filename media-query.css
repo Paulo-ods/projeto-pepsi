@@ -46,6 +46,10 @@
         display: none;
     }
 
+    .main-header-container {
+        background-color: #03053938;
+    }
+
    .main-header-container.on {
         top: 0;
         left: 0;
@@ -68,21 +72,22 @@
         position: absolute;
         right: 40px;
         top: 20px;
+        padding-top: 25px;
     }
 
-    .main-header-container.on .list-menu {
+    .main-header-container.on .header-navigation {
         display: block;
         
     }
 
-    .main-header-container.on .list-menu li {
+    .main-header-container.on .header-navigation li {
         text-align: center;
         display: flex;
         justify-content: center;
         
     }
 
-    .main-header-container.on .list-menu li a {
+    .main-header-container.on .header-navigation li a {
         font-size: 2.5rem;
         display: block;
     }
@@ -97,6 +102,14 @@
 
     .main-header-container.on .menu-toggle .three {
         transform: rotate(-45deg) translate(20px, -6px);
+    }
+
+    .pepsi-img {
+        display: none;
+    }
+
+    .purchase-button{
+        margin-bottom: 5rem;
     }
 
 }
