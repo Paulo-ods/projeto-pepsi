@@ -46,6 +46,14 @@
         display: none;
     }
 
+    .header-navigation-container.on {
+        display: flex;
+        flex-direction: column;
+        box-shadow: inset #1616a3 -2px -3px 20px 5px;
+        padding: 61px 50px 10px 50px;
+        border-radius: 30px;
+    }
+
     .main-header-container {
         background-color: #03053938;
     }
@@ -55,14 +63,13 @@
         left: 0;
         width: 100vw;
         height: 100vh;
-        background-color: #1f1e1f;
+        background-color: #140c41;
         z-index: 10;
 
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
 
     .main-header-container.on .logo {
         display: none;
@@ -88,7 +95,7 @@
     }
 
     .main-header-container.on .header-navigation li a {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         display: block;
     }
 
