@@ -2,12 +2,17 @@
 
 @media screen and (max-width: 768px) {
     body {
+        position: relative;
         display: flex;   
         flex-direction: row !important;
     }
 
     main {
         margin: 30px auto 0;
+    }
+
+    .main-description {
+        margin-left: 11px;
     }
 
     .one,
@@ -19,14 +24,14 @@
         margin: 6px auto;
         transition-duration: 0.5s ;
     }
+
     .menu-toggle {
         width: 40px;
         height: 30px;
     }
 
     .nutri-itens {
-        display: flex
-;
+        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         align-content: center;
@@ -124,8 +129,29 @@
         display: none;
     }
 
+    .pepsi-img-cll {
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        transform: translateY(130%);
+        align-items: baseline;
+        z-index: -1;
+    }
+
+    .grande {
+        height: 250px;
+    }
+
+    .pequena {
+        height: 170px;
+    }
+
     .purchase-button{
         margin-bottom: 5rem;
     }
 
+    .info-bottom {
+        display: none;
+        box-shadow: -3px 1px 10px rgb(3, 3, 82);
+    }
 }

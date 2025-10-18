@@ -261,3 +261,7 @@ li {
     filter: blur(250px);
     z-index: -1;
 }
+
+.pepsi-img-cll {
+    display: none;
+}

@@ -21,6 +21,5 @@ function ajustarEspacamento() {
   mainSection.style.marginTop = `${alturaHeader}px`;
 }
 
-// Executa ao carregar e ao redimensionar
 window.addEventListener('load', ajustarEspacamento);
 window.addEventListener('resize', ajustarEspacamento);
